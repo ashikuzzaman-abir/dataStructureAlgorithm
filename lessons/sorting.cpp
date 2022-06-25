@@ -7,6 +7,7 @@
 #include<stack>
 #include<iomanip>
 #include<string>
+#include<bits/std_abs.h>
 
 using namespace std;
 
@@ -14,8 +15,12 @@ using namespace std;
 
 
 int main (){
+    // Fast IO
     ios::sync_with_stdio(false);
     cin.tie(NULL);
+
+
+
     string name;
     cin>> name;
     cout<< name;
